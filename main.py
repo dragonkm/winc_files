@@ -28,7 +28,7 @@ def cached_files():
     #Hier komen de bestandsnamen
     files =[]
     for f in os.listdir(pad):
-        #Voeg toe aan list
+        #Voeg toe aan list met pad
        files.append(pad + '\\' + f)
 
     return files
